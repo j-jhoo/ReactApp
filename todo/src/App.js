@@ -8,17 +8,17 @@ const App = () => {
     {
       id: 1,
       text: "할일 1",
-      checkde: true,
+      checked: true,
     },
     {
       id: 2,
       text: "할일 2",
-      checkde: false,
+      checked: false,
     },
     {
       id: 3,
       text: "할일 3",
-      checkde: true,
+      checked: true,
     },
   ]);
 

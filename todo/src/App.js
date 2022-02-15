@@ -23,7 +23,7 @@ const App = () => {
   ]);
 
   return (
-    <Template>
+    <Template todoLength={todos.lenght}>
       <TodoList todos={todos} />
     </Template>
   );

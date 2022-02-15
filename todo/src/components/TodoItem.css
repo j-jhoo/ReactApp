@@ -7,3 +7,8 @@
   display: flex;
   align-items: center;
 }
+
+/* TodoItem 사이의 간격을 늘리고 싶을 때 이런식의 코드 사용 가능  */
+.TodoItem + .TodoItem {
+  margin-top: 15px;
+}

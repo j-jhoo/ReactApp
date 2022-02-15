@@ -1,5 +1,6 @@
 import React from "react";
 import { MdCheckBox, MdCheckBoxOutlineBlank } from "react-icons/md";
+import "./TodoItem.css";
 
 const TodoItem = ({ todo }) => {
   const { id, text, checked } = todo;

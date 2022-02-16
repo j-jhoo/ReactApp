@@ -2,7 +2,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
-  box-shadow: 1px 2px 5px 1px #f67280;
+  box-shadow: 1px 2px 5px 1px #9a72f6;
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@
 
 .content svg {
   font-size: 1.5rem;
-  color: #f67280;
+  color: #9a72f6;
 }
 
 .content.text {

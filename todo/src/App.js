@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./App.css";
 import Template from "./components/Template";
 import TodoList from "./components/TodoList";
+import TodoInsert from "./components/TodoInsert";
 import { MdAddCircle } from "react-icons/md";
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
       <div className="add-todo-button">
         <MdAddCircle />
       </div>
+      <TodoInsert />
     </Template>
   );
 };

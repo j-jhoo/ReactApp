@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { MdAddCircle } from "react-icons/md";
+import { TiTrash, TiPencil } from "react-icons/ti";
 import "./TodoInsert.css";
 
-const TodoInsert = ({ onInsertToggle, onInsertTodo }) => {
+const TodoInsert = ({ onInsertToggle, onInsertTodo, selectedTodo }) => {
   const [value, setValue] = useState("");
 
   const onChange = (e) => {
@@ -16,6 +17,12 @@ const TodoInsert = ({ onInsertToggle, onInsertTodo }) => {
     onInsertToggle();
   };
 
+  useEffect(() => {
+    if (selectedTodo) {
+      setValue(selectedTodo.text);
+    }
+  }, [selectedTodo]);
+
   return (
     <div>
       <div className="background" onClick={onInsertToggle}></div>
@@ -25,9 +32,16 @@ const TodoInsert = ({ onInsertToggle, onInsertTodo }) => {
           value={value}
           onChange={onChange}
         />
-        <button type="submit">
-          <MdAddCircle />
-        </button>
+        {selectedTodo ? (
+          <div className="rewrite">
+            <TiPencil />
+            <TiTrash />
+          </div>
+        ) : (
+          <button type="submit">
+            <MdAddCircle />
+          </button>
+        )}
       </form>
     </div>
   );

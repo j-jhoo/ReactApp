@@ -17,12 +17,12 @@
 
 ## 시연 영상
 
-- 항목 추가하기<br> <br>
+- 항목 추가하기<br>  
 <video autoplay muted height="480" width="288" controls>
   <source src="https://user-images.githubusercontent.com/89238394/154402540-861d7b5a-678f-4ec1-a315-df78c3c90688.mov">
 </video>
 
-- 항목 수정하기<br> <br>
+- 항목 수정하기<br>
 <video autoplay muted height="480" width="288" controls>
   <source src="https://user-images.githubusercontent.com/89238394/154402951-ffcf48dc-db7e-4285-99b1-667cc2e37e6b.mov">
 </video>

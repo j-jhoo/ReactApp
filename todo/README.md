@@ -24,4 +24,4 @@
   <img src="https://user-images.githubusercontent.com/89238394/154399934-0cbfa5d1-667b-4c3c-bcd1-31e910b5289c.mov">
 
 - 항목 삭제하기
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/6Nb_4kqJOJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  ![화면 기록 2022-02-16 오후 4 05 46]<iframe width="560" height="315" src="https://www.youtube.com/embed/6Nb_4kqJOJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

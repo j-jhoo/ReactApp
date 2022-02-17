@@ -24,4 +24,4 @@
   <img src="https://user-images.githubusercontent.com/89238394/154399934-0cbfa5d1-667b-4c3c-bcd1-31e910b5289c.mov">
 
 - 항목 삭제하기
-  <img src="https://user-images.githubusercontent.com/89238394/154399981-5d36bd39-0874-4c60-8199-26832c29a950.mov">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/6Nb_4kqJOJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

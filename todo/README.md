@@ -19,3 +19,6 @@
 
 - 항목 추가하기 & 수정 & 삭제까지 가능하게 구현 
 ### ![투두앱](https://user-images.githubusercontent.com/89238394/154409059-4dd5a402-782a-4099-acbd-eb59392b0dab.gif)
+
+- 수정과 삭제 영상 
+### ![수정삭제](https://user-images.githubusercontent.com/89238394/154409786-83c6b6ad-7623-4887-bb85-0381a33689e3.gif)

@@ -17,12 +17,5 @@
 
 ## 시연 영상
 
-- 항목 추가하기<br>  
-  <video autoplay="autoplay" muted="muted" src="https://user-images.githubusercontent.com/89238394/154402540-861d7b5a-678f-4ec1-a315-df78c3c90688.mov">
-
-- 항목 수정하기<br>
-  <video autoplay="autoplay" muted="muted" src="https://user-images.githubusercontent.com/89238394/154402951-ffcf48dc-db7e-4285-99b1-667cc2e37e6b.mov">
-
-- 항목 삭제하기<br>
-  <video autoplay="autoplay" muted="muted" src="https://user-images.githubusercontent.com/89238394/154403102-38a38760-451c-434d-9d50-91f28bfa55a5.mov">
-
+- 항목 추가하기 & 수정 & 삭제까지 가능하게 구현 
+### ![투두앱](https://user-images.githubusercontent.com/89238394/154409059-4dd5a402-782a-4099-acbd-eb59392b0dab.gif)

@@ -11,5 +11,17 @@
 
 - 컴포넌트 세분화
 - useState 사용
+- usEffect 사용
 - {children} 인자로 받아오기
 - 반복되는 것을 map을 사용하여 간결하게
+
+## 시연 영상
+
+- 항목 추가하기
+  <img src="https://user-images.githubusercontent.com/89238394/154399934-0cbfa5d1-667b-4c3c-bcd1-31e910b5289c.mov">
+
+- 항목 수정하기
+  <img src="https://user-images.githubusercontent.com/89238394/154399934-0cbfa5d1-667b-4c3c-bcd1-31e910b5289c.mov">
+
+- 항목 삭제하기
+  <img src="https://user-images.githubusercontent.com/89238394/154399981-5d36bd39-0874-4c60-8199-26832c29a950.mov">

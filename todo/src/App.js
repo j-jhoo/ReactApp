@@ -29,7 +29,11 @@ const App = () => {
     },
   ]);
 
+  // 항목 추가하는 토글
   const onInsertToggle = () => {
+    if (selectedTodo) {
+      setSelectedTodo(null);
+    }
     setInsertToggle((prev) => !prev);
   };
 
@@ -59,6 +63,19 @@ const App = () => {
     setSelectedTodo(todo);
   };
 
+  // 삭제 로직
+  const onRemove = (id) => {
+    onInsertToggle();
+    setTodos((todos) => todos.filter((todo) => todo.id !== id));
+  };
+
+  // 항목 수정할 수 있는 로직(연필아이콘 누를경우)
+  const onUpdate = (id, text) => {
+    onInsertToggle();
+    setTodos((todos) =>
+      todos.map((todo) => (todo.id === id ? { ...todo, text } : todo))
+    );
+  };
   return (
     <Template todoLength={todos.length}>
       <TodoList
@@ -76,6 +93,8 @@ const App = () => {
           onInsertToggle={onInsertToggle}
           onInsertTodo={onInsertTodo}
           selectedTodo={selectedTodo}
+          onRemove={onRemove}
+          onUpdate={onUpdate}
         />
       )}
     </Template>

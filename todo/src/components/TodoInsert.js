@@ -49,11 +49,13 @@ const TodoInsert = ({
         {selectedTodo ? (
           <div className="rewrite">
             <TiPencil
+              className="pencil"
               onClick={() => {
                 onUpdate(selectedTodo.id, value);
               }}
             />
             <TiTrash
+              className="trash"
               onClick={() => {
                 onRemove(selectedTodo.id);
               }}

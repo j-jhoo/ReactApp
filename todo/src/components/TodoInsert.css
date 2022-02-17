@@ -62,3 +62,8 @@ form > button {
   padding-right: 1rem;
   font-size: 1.6rem;
 }
+
+.pencil,
+.trash {
+  cursor: pointer;
+}

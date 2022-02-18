@@ -8,8 +8,11 @@ const App = () => {
       <header className="blackNav">
         <div>개발 블로그</div>
       </header>
-
-      <h4>{lala}</h4>
+      <div className="list">
+        <h3>{lala}</h3>
+        <p>2월 18일 발행</p>
+        <hr />
+      </div>
     </div>
   );
 };

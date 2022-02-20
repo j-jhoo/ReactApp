@@ -15,8 +15,12 @@ body {
 
   .list {
     margin-top: 30px;
-    text-align: center;
+    text-align: left;
     padding-left: 20px;
     padding-right: 20px;
+
+    span {
+      cursor: pointer;
+    }
   }
 }

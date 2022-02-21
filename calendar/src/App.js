@@ -1,11 +1,9 @@
-import styled from "styled-components";
+import React from "react";
+// import "./App.css";
+// import styled from "styled-components";
 
 function App() {
-  return <container></container>;
+  return <div></div>;
 }
-
-styled.container`
-  font-size: 1rem;
-`;
 
 export default App;

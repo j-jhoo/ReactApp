@@ -1,4 +1,4 @@
-# React 사용한 App 만들기
+# React 사용한 App
 
 - 함수형 컴포넌트로 반응형의 MyToDoApp 만들기
 

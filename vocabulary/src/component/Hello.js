@@ -1,28 +1,23 @@
+import React, { useState } from "react";
+
 const Hello = () => {
-  const showName = () => {
-    console.log("hoo");
-  };
-  const inputText = (text) => {
-    console.log(text);
-  };
+  const [name, setName] = useState("jihoo");
+
+  // const changeName = () => {
+  //   const newName = name === "jihoo" ? "mike" : "jihoo";
+  //   setName(newName);
+  // };
   return (
     <div>
-      <h1>Hello</h1>
-      <button onClick={showName}>Show Name</button>
+      <h1>state</h1>
+      <h2>{name}</h2>
       <button
         onClick={() => {
-          console.log("fkkffk");
+          setName(name === "jihoo" ? "mike" : "jihoo");
         }}
       >
-        Show Age
+        Change
       </button>
-      <input
-        type="text"
-        onChange={(e) => {
-          const text = e.target.value;
-          inputText(text);
-        }}
-      />
     </div>
   );
 };

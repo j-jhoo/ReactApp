@@ -1,10 +1,9 @@
-import Word from "./Word";
-
 const Hello = () => {
   return (
     <div>
       <h1>Hello</h1>
-      <Word />
+      <button>Show Name</button>
+      <button>Show Age</button>
     </div>
   );
 };

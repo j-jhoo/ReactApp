@@ -1,5 +1,11 @@
 import dummy from "../db/data.json";
 export default function DayList() {
   console.log(dummy);
-  return <ul>day list</ul>;
+  return (
+    <ul className="list_day">
+      {dummy.days.map((day) => (
+        <li kdy={day.id}>Day {day.day}</li>
+      ))}
+    </ul>
+  );
 }

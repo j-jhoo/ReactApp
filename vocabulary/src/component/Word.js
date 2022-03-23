@@ -8,13 +8,27 @@ export default function Word({ word }) {
     setIsShow(!isShow);
   };
 
-  const checkDone = () => {
-    setIsDone(!isDone);
+  const toggleCheckDone = () => {
+    // setIsDone(!isDone);
+    fetch(`http://localhost:3001/words/${word.id}`, {
+      method: "PUT",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        ...word,
+        isDone: !isDone,
+      }),
+    }).then((res) => {
+      if (res.ok) {
+        setIsDone(!isDone);
+      }
+    });
   };
   return (
     <tr className={isDone ? "off" : ""}>
       <td>
-        <input type="checkbox" checked={isDone} onChange={checkDone} />
+        <input type="checkbox" checked={isDone} onChange={toggleCheckDone} />
       </td>
       <td>{word.eng} </td>
       <td>{isShow && word.kor}</td>

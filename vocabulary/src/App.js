@@ -4,6 +4,7 @@ import Day from "./component/Day";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CreateWord from "./component/CreateWord";
 import EmptyPage from "./component/EmptyPage";
+import CreateDay from "./component/CreateDay";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Route exact path="/" element={<DayList />} />
           <Route path="/day/:day" element={<Day />} />
           <Route path="/create_word" element={<CreateWord />} />
+          <Route path="/create_day" element={<CreateDay />} />
           <Route path="*" element={<EmptyPage />} />
           {/* React V6부터는 상단에 위치하는 라우터들의 규칙을 모두 확인, 일치하는 라우트가 없는 경우 *로 처리해서 사용 가능함  */}
         </Routes>

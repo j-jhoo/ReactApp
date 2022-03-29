@@ -66,6 +66,13 @@
       "day": "3",
       "isDone": false,
       "id": 13
+    },
+    {
+      "eng": "",
+      "kor": "",
+      "day": "1",
+      "isDone": false,
+      "id": 14
     }
   ]
 }

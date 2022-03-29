@@ -17,6 +17,7 @@ export default function CreateWord() {
       headers: {
         "Content-Type": "application/json",
       },
+      // useRef 사용 (current.value)
       body: JSON.stringify({
         eng: engRef.current.value,
         kor: korRef.current.value,

@@ -61,18 +61,11 @@
       "isDone": false
     },
     {
-      "id": 11,
-      "day": 4,
-      "eng": "apple",
-      "kor": "사과",
-      "isDone": false
-    },
-    {
-      "id": 12,
-      "day": 3,
-      "eng": "apple",
-      "kor": "사과",
-      "isDone": false
+      "eng": "melone",
+      "kor": "멜론",
+      "day": "3",
+      "isDone": false,
+      "id": 13
     }
   ]
 }
